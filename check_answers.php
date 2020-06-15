@@ -22,7 +22,10 @@
             }
         }
     }
-    theme($ARR['examtype']);
+    $sql = "SELECT theme FROM examtypes  WHERE id = '{$ARR['examtype']}'";
+    $result = $connect->query($sql);
+    $row = $result->fetch_assoc();
+    theme($row['theme']);
     $correctans = 0;
     $incorrectans = 0;
     $a = 0;
