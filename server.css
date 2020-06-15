@@ -1,0 +1,119 @@
+body {
+    background: url('img/bg/bandwidth-close-up-computer-connection-1148820.jpg') fixed center/cover;
+}
+
+#top, .top {
+    background-color: rgba(0, 0, 80, 0.5);
+    color: #fff;
+    font-family: monospace;
+}
+
+hr {
+    border-color: #222;
+}
+
+h1 {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom-color: #555;
+}
+
+h2 {
+    background-color: #000;
+    border-color: #000;
+    font-weight: bold;
+}
+
+.square label {
+    border-color: #000;
+}
+
+.info {
+    border-color: #222;
+}
+
+label, .labellike {
+    background-color: rgba(0, 0, 80, 0.8);
+    border-color: rgba(0, 0, 80, 0.8);
+}
+
+label:hover, .labellike:hover {
+    background-color: rgba(255,255,170,0.2);
+    border-color: rgba(255,255,170,0.2);
+}
+
+label:active, .labellike:active {
+    background-color: rgba(255,255,170,0.8);
+    border-color: rgba(255,255,170,0.8);
+    color:black;
+}
+
+label.correct {
+    background-color: #afa;
+    border-color: #afa;
+    color:black;
+}
+
+label.chosen {
+    background-color: #f55;
+    border-color: #400;
+    color:black;
+}
+
+label.correct.chosen {
+    background-color: #5f5;
+    border-color: #040;
+    color:black;
+}
+
+input:checked+label {
+    background-color: #ffa;
+    border-color: #ff0;
+    color:black;
+}
+
+.auxilia {
+    background-color: #eee;
+}
+
+input:checked+label+.auxilia {
+    display: block;
+}
+
+.top button {
+    color: white;
+    width: 760px;
+    display: block;
+    margin: 4px;
+    background-color: #222;
+    font-size: 18px;
+    padding: 8px;
+    transition: all 100ms;
+    border: none;
+}
+
+.top button:hover {
+    background-color: #555;
+}
+
+.top button:active {
+    background-color: #aaa;
+}
+
+figure {
+    margin: 4px;
+    padding: 0;
+}
+
+figure img {
+    max-width: 760px;
+    margin: auto;
+    display: block;
+}
+
+.faded {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.icon:hover {
+    color: #888;
+}

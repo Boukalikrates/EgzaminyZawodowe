@@ -1,0 +1,60 @@
+body{
+    font-size: 10pt;
+}
+
+
+input[type=radio]{
+    display: none;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 1.5em;
+
+ -webkit-column-span: all;
+ column-span: all;
+}
+h2{
+    font-size: 1em;
+}
+.columns {
+    column-width: 8cm;
+    column-gap: 5mm;
+  }
+
+figure img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+div.q{
+    display: block;
+
+-webkit-column-break-inside: avoid;
+page-break-inside: avoid;
+     break-inside: avoid;
+}
+
+
+label,
+.labellike {
+    color: inherit;
+    display: block;
+    border: 1mm solid transparent;
+    padding: 1mm;
+    text-decoration: inherit;
+    clear: both;
+}
+
+
+label.chosen {
+    border: 1mm solid #555;
+}
+label.correct::before{
+    content: "▶ ";
+}

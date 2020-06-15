@@ -1,0 +1,119 @@
+body {
+    background: #000 ;
+}
+#top,
+.top {
+    background-color: #111;
+    color: #fff;
+}
+
+hr {
+    border-color: #222;
+}
+
+
+h1 {
+    background: #111;
+    border-bottom-color: #555;
+}
+
+h2 {
+    background-color: #222;
+    border-color:  #222;
+}
+
+.square label {
+    border-color: #000;
+}
+
+.info {
+    border-color:  #222;
+}
+
+label,
+.labellike {
+    background-color: #000;
+    border-color:  #000;
+}
+
+
+
+label:hover,
+.labellike:hover {
+    background-color: #113;
+    border-color: #113;
+}
+
+label:active,
+.labellike:active {
+    background-color: #115;
+    border-color: #115;
+}
+
+label.correct {
+    background-color: #151;
+    border-color: #151;
+}
+
+label.chosen {
+    background-color: #a00;
+    border-color: #400;
+}
+
+label.correct.chosen {
+    background-color: #5f5;
+    border-color: #040;
+}
+
+input:checked + label {
+    background-color: #115;
+    border-color: #00a;
+}
+
+.auxilia {
+    background-color: #eee;
+}
+
+input:checked + label + .auxilia {
+    display: block;
+}
+
+.top button {
+    color: white;
+    width: 760px;
+    display: block;
+    margin: 4px;
+    background-color: #222;
+    font-size: 18px;
+    padding: 8px;
+    transition: all 100ms;
+    border: none;
+}
+
+.top button:hover {
+    background-color: #555;
+}
+
+.top button:active {
+    background-color: #aaa;
+}
+
+figure {
+    margin: 4px;
+    padding: 0;
+
+}
+
+figure img {
+    max-width: 760px;
+    margin: auto;
+    display: block;
+}
+
+.faded {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.icon:hover {
+    color: #888;
+}
