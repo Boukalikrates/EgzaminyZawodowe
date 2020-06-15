@@ -38,7 +38,7 @@ function composeJSON(e) {
 
 function sendtoserver(row, deletion) {
     row.find('.statusicon').html('<i class="fas fa-spin fa-spinner" title="Wysyłanie na serwer"></i>');
-    row.find('input,button,textarea').attr('disabled', true);
+    // row.find('input,button,textarea').attr('disabled', true);
     let id = row.attr('data-questionid');
     let at = row.find('.queryoutput').val();
     let q = row.find('textarea').val();
@@ -62,6 +62,8 @@ function sendtoserver(row, deletion) {
                     let newid = row.find('.newid').val()
                     row.attr('data-questionid', newid).find('.answerchecker').attr('name','q'+newid);
                 }
+            }else{
+                row.find('input,button,textarea').attr('disabled', true);
             }
         }
     })
